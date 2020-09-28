@@ -1,0 +1,8 @@
+{
+  "db": {
+    "database": "csieapp",
+    "userName": "miky",
+    "password": "miky123",
+    "dialect": "mysql"
+  }
+}

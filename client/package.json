@@ -1,0 +1,48 @@
+{
+  "name": "likenta",
+  "version": "0.0.1",
+  "description": "A Quasar Framework app",
+  "productName": "Likenta",
+  "cordovaId": "org.cordova.quasar.app",
+  "capacitorId": "",
+  "author": "MikyPopescu <popescu9andreea17@stud.ase.ro>",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext .js,.vue src",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@daykeep/calendar-quasar": "^1.0.0-beta.3",
+    "@quasar/extras": "^1.8.2",
+    "@quasar/quasar-ui-qcalendar": "^2.1.2",
+    "axios": "^0.19.2",
+    "babel-loader": "^8.1.0",
+    "chart.js": "^2.9.3",
+    "csv": "^5.3.2",
+    "jspdf": "^1.5.3",
+    "quasar": "^1.12.8",
+    "quasar-calendar": "^1.0.0-beta.1",
+    "ui": "^0.2.4",
+    "vue-i18n": "^8.18.1",
+    "vue-pdf": "^4.0.8",
+    "vuedraggable": "^2.23.2"
+  },
+  "devDependencies": {
+    "@quasar/app": "^1.9.6",
+    "@quasar/quasar-app-extension-qcalendar": "^2.1.2",
+    "@quasar/quasar-app-extension-qpdfviewer": "^1.0.0-beta.7",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.1.0",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-vue": "^6.2.2"
+  },
+  "engines": {
+    "node": ">= 10.18.1",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  },
+  "browserslist": [
+    "last 1 version, not dead, ie >= 11"
+  ]
+}
